@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "algorithm": "sha256",
+  "sealed_at": "2026-11-20T21:43:58.150Z",
+  "files": {
+    "environment/egress.log": {
+      "sha256": "23fbce8f986b1b8341e7b1cecc3bd4500397b67db4481a232e8b537089007494",
+      "bytes": 388
+    },
+    "environment/erp_requests.log": {
+      "sha256": "4c8c6300bb0c5f261800164261ed4de4298eaedd4d3114ab40262a0d9a2f1d9d",
+      "bytes": 328727
+    },
+    "environment/fieldbook/fieldbook.db": {
+      "sha256": "75243c8e5c0bd248c2d1639dca74760f3edfe2dccefd53fb124935d5dc9b2e44",
+      "bytes": 237568
+    },
+    "environment/fieldbook_export.json": {
+      "sha256": "a81477d98c50dc65754b0af3ede38b5469f5461485358419e1f3e775f31cf421",
+      "bytes": 14364
+    },
+    "environment/screen.mp4": {
+      "sha256": "83536f6070843bfe2c2fe09d8fb34fa4dcb195ae23f240a3d2e6674e45a0e7d8",
+      "bytes": 8824385
+    },
+    "harness/events.jsonl": {
+      "sha256": "844e2c738c05690ebf34863521699b67c86a6d4733d1f3e187a6156561b9114e",
+      "bytes": 2007619
+    },
+    "harness/home/.claude/.claude.json": {
+      "sha256": "a7c58e3bda1ed38407ae3f7b6783be7dadbddbcc0f1e64f7aaa3da0be46062dc",
+      "bytes": 811
+    },
+    "harness/home/.claude/backups/.claude.json.backup.1795210417530": {
+      "sha256": "86c91dc6e35c56793e5d9b19038a79678ffd8b9276ade1b6da9edd1768e4ba25",
+      "bytes": 84
+    },
+    "harness/home/.claude/plugins/store/cc-plugin-agents-md_builtin-b049b47b3618.json": {
+      "sha256": "3901097f98c90116b024e0272958f15cee995ac84684301ef611b06687cb08ef",
+      "bytes": 92
+    },
+    "harness/home/.claude/policy-limits.json": {
+      "sha256": "47533966a7ab7ef8407a01ac5a899574b289d0cfc176cbf136a418816eb15b49",
+      "bytes": 1048
+    },
+    "harness/home/.claude/policy-limits.json.signature.json": {
+      "sha256": "d127b3eeb45a90a36fe86a24e612767ac54a4635d25a82b28e4b3a05a657aec1",
+      "bytes": 2999
+    },
+    "harness/home/.claude/policy-limits.json.stamp.json": {
+      "sha256": "dcca86a15ff66c6a73ecb982ecd7146efaba150f01563e83c8c9b1699af7f9c9",
+      "bytes": 223
+    },
+    "harness/home/.claude/projects/-out-workdir/006fa10b-6047-424f-a821-34bb511dee84.jsonl": {
+      "sha256": "308432a475f44d4a420d722378f4242373910ebebb38c1c10d7aa362c20d67d8",
+      "bytes": 2818035
+    },
+    "harness/home/.claude/remote-settings.json": {
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    "harness/home/.claude/remote-settings.json.synced-at": {
+      "sha256": "41e037f317739db515ea5099385b726ba1740d5279e708a4e7d4b69e1f4ef769",
+      "bytes": 13
+    },
+    "harness/mcp-output/console-2026-11-20T21-33-39-909Z.log": {
+      "sha256": "c722e08cdad92a8c0f437776d8875ef452f06c7e7c8c4405c555fc9f04c6c9b4",
+      "bytes": 138
+    },
+    "harness/mcp-output/console-2026-11-20T21-33-39-910Z.log": {
+      "sha256": "9a39c62ae67bd7a25e2a35a24698480d3153ba30f7dae30da1a42f23f621060f",
+      "bytes": 964
+    },
+    "harness/mcp-output/console-2026-11-20T21-33-49-940Z.log": {
+      "sha256": "82cd9602a114034ba483594a23f45d29aa6e6d3f3279a0dc3911778b89374204",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-33-52-697Z.log": {
+      "sha256": "1f501f63407c12b118c79914c56d295cef4c74511151ad203afa87d677a7e59c",
+      "bytes": 296
+    },
+    "harness/mcp-output/console-2026-11-20T21-33-57-573Z.log": {
+      "sha256": "89718855ac04a6edb3c006d165cb5a42022b1c721354e0a245fd37dd7e7d1260",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-34-10-752Z.log": {
+      "sha256": "3c8c892076e495541f2051ca107771db988820c4adaf0a7f06e33e3077f54e61",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-34-17-895Z.log": {
+      "sha256": "1dd2899e5e3cd1ff07cd9a4b0b313d934a0f693d8cdfb0e820873b11ea3ad611",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-34-40-363Z.log": {
+      "sha256": "273a6838d242528c9066c481ff07caf4fd502f7615f4bb95dc3f115f645be3eb",
+      "bytes": 576
+    },
+    "harness/mcp-output/console-2026-11-20T21-34-45-098Z.log": {
+      "sha256": "f9421854d8c19c0f100a89d2d5bc371d1bbfeab0f9c8cfff0ed22b4bb2b0502c",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-02-449Z.log": {
+      "sha256": "dd817bd961308f65122cfc2491c7179b80cf06ac176925071f16a8edce5811fa",
+      "bytes": 803
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-06-578Z.log": {
+      "sha256": "dbe383e97d1e48153f9ac33dee696d9142a1731e2cf9af5429454ec9923a0a9d",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-09-540Z.log": {
+      "sha256": "18a8ef5ba29d27a48978d1835987fdc9e57db0600430b532b2643926bb4c5424",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-14-537Z.log": {
+      "sha256": "164c13d4d8eb10dccc2dbbab8e3ff47568ea4c07ed121de3681addd3da024497",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-19-098Z.log": {
+      "sha256": "9ee42cd79dedb9c2e3d9b033d94809fc899fc4ab3243ca14b086b3946e0cce2b",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-25-359Z.log": {
+      "sha256": "aca0765445e96bae979686700605f8720b8dfd0e457a502985aa4e33f8141a69",
+      "bytes": 2713
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-31-492Z.log": {
+      "sha256": "a680375f59d2aefa88e0a1760557329156274c533b91fdfd5b84cc11f6a6aed5",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-36-301Z.log": {
+      "sha256": "7fdec315d5647ea6d1054cb3b2d65e7da94b5722c153f67445a6a4ce8274e1b0",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-42-324Z.log": {
+      "sha256": "836952c9d870eec90f2053afae1ffbf4e535ca9d5a1b86f8242fcb26501c70ae",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-53-458Z.log": {
+      "sha256": "b526a1a3a9cdf035f8bd2c7f544fcf27e5af52e9493bccd28bde59ca5500ef30",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-35-56-695Z.log": {
+      "sha256": "354be7947277ac6a91a794c94ad64125d54355f4c30310796683a56e41e0150b",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-00-655Z.log": {
+      "sha256": "b77437301cb8e07916095051688d41093b57a2a3b5be9e2e2da03546299493a9",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-05-120Z.log": {
+      "sha256": "31ea2785fbe8c41653a00bb2c855691fa2b0294e81194a922496d49e06f21e5e",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-08-201Z.log": {
+      "sha256": "ea65ce3f0966a4e49db415a910a18735310ca1ed365654fdfae300b5a4dc7139",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-12-743Z.log": {
+      "sha256": "b6b19c75bd8f8c2bb714c51e023c42a317d8a883cfb24908257a923028cd27be",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-16-675Z.log": {
+      "sha256": "1b5dd72b8793b2e46dd0ba9d11ca91232004ad2a19677e1f3fec481cd849f872",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-19-644Z.log": {
+      "sha256": "ed09f3b5498cd0838bfe77e083c9356def72a11855e0eca14cd8a98faa7e1dc6",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-39-222Z.log": {
+      "sha256": "84c7b9102f14cec3178d5b6e9bed417a3044cee5740f0a44ae73ee9a4056c607",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-49-241Z.log": {
+      "sha256": "430d0fed3129abbae08d4e103f01e89d0055ca65d6a7ed22214e208003ea5926",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-52-793Z.log": {
+      "sha256": "6010fb452f23e728cd0582ddc29e79998833fe021fb2b7da6f496960b63567b8",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-56-286Z.log": {
+      "sha256": "138be7121a047737ffff2449ee3f457c1bca7e0ff69abc06ef3a0146cb9ff800",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-36-59-651Z.log": {
+      "sha256": "3fff243a83c04f9c42932e6fc544f5f64c7ee10de03fca20bd177053ad76556c",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-04-109Z.log": {
+      "sha256": "51988ae76a413d97a8b57343eed44d144a9dd23c6b66525bcbfb5265ac983497",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-07-389Z.log": {
+      "sha256": "5328140f95c494209ebd93b67a66010e83d67ccd7f303e34071c9b1ec1fcfd7b",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-10-719Z.log": {
+      "sha256": "11d549316decdbe12fafae71fccf993473fc9eec0170173975384ceb18ac8aa6",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-14-830Z.log": {
+      "sha256": "edeafae271c0ba6e15f44b4d5c95e737f510d3b123efad766606f1d35ad34409",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-24-878Z.log": {
+      "sha256": "00b9d3df36384111d23820cd7ba5d8bf9ae4270fa3fcbc9947296d7e9e199a8d",
+      "bytes": 576
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-28-117Z.log": {
+      "sha256": "aae4fdcd34f86e7395bc4c2e6a109e37b36c758634b7402fde5b5ce48ff908e6",
+      "bytes": 576
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-31-424Z.log": {
+      "sha256": "587efefeb34189bb85fcedf9bc4ab0fee68e35939ceae5d1a6a5d31828f80be4",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-34-653Z.log": {
+      "sha256": "344708bccf6d8588aa7b35c65f4bcc6c66678271ee6105ca3a08f8a631394dc1",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-38-343Z.log": {
+      "sha256": "bae72f3e0d8484ad934491cc56c03ba89220978420021ab420a40656cac9271f",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-41-481Z.log": {
+      "sha256": "f001fa197faf56043d810ff258bd3dceb50285a4bd328d4dce3d4a090caf5ac5",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-45-508Z.log": {
+      "sha256": "4424d6dc3294b8b1fcc9f3060bc1840b1447ba53692da167f4e7bdbc9ee387fe",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-49-018Z.log": {
+      "sha256": "08dc1d6f27b5086c40a705e34893177915a8094a6626bb3dd00c4df33cfef6ea",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-37-53-246Z.log": {
+      "sha256": "35132d3f2d9970f3356c4a2ffbfab89ef126c1577f6833e6a35bd9084c5c3027",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-04-957Z.log": {
+      "sha256": "da4903aa5596f2ac5d6aa538a8094285426eee30d1a409610016d0c4521733e3",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-08-666Z.log": {
+      "sha256": "8a0fda95a670cdcdd439830aab7c6a2c17cb23f28e74b0cef2db689a4e7d496e",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-12-408Z.log": {
+      "sha256": "673f9fc4f06cbdb02081442c17f160849c6136b5d5376c4e3ad4eb71a96d5881",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-15-639Z.log": {
+      "sha256": "1eca9474decb263190e43d2decef06dd41b32f4ba9b0128ea5872f4caf7d6c8f",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-19-052Z.log": {
+      "sha256": "02baafc7e66f8ef90d6c6e0f4cfa86a68df5c4b426c1f047f22415ec664c935f",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-22-708Z.log": {
+      "sha256": "98c53a3b0747e179cdc9900bea2b5a75d950277b11cdb6b41dd53184bc0746e2",
+      "bytes": 576
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-26-378Z.log": {
+      "sha256": "7e391ce593ea717532466d9bbdb009a5eab6ad2bc2d7c8b4496a30fd9e874ddf",
+      "bytes": 576
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-37-171Z.log": {
+      "sha256": "bd87c88cf860b5422c1a664d39160988f6bfa79df8a26ace7c1cdd322f259a1e",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-40-154Z.log": {
+      "sha256": "bf73b08570dfbfea7ad83150ed27d12d13ab79289e9482ab9d17779f09c18c22",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-43-857Z.log": {
+      "sha256": "f4cee8b42b05d1605fc99f84cc8a3b53e1d1adaa8749b90c7a6a50ac4e6fdec6",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-46-776Z.log": {
+      "sha256": "d9c5a8a2a44cdbd653a4a8214e00ecdd9a4e1b6e15efc4f40f0c4ffd8e02abf3",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-38-49-611Z.log": {
+      "sha256": "e8ae7428859291ebfeba72168200c08a5fb0c48a1659ca9aa14e115a61f6af8c",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-06-076Z.log": {
+      "sha256": "725e3ae624507469edfa31774af2427a98a2e62a8beabe85b1d4f18543a4696f",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-08-870Z.log": {
+      "sha256": "d3fa997e6d66b380f943ba36d3a2db28ace1ab8fdbdb2dfccc30c7b5a2a22de7",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-12-624Z.log": {
+      "sha256": "aa61e7279add929a58bd0874473e4ad0eb34a4768ea49ece0e78f3f388bb408f",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-22-830Z.log": {
+      "sha256": "115e678bd5dad5a6f258c7d83b14229dab5cefbc778ea5ee5ff73e7f214bf17d",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-25-823Z.log": {
+      "sha256": "efddd00fce67e74908e47665598d222384836d0d5088a11db4b67cce3e3257e1",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-29-009Z.log": {
+      "sha256": "be04717351bfa064254cee2199176b1eb0ef145be42bba9f23730873e5cc2aeb",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-31-961Z.log": {
+      "sha256": "3692d235aa76011a3dbe5435f501604035c9644baceb0d8620d8c1ee6eb970e9",
+      "bytes": 383
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-36-325Z.log": {
+      "sha256": "38b816393f195373bf64df64d729eb926a01f58e8161ddea16c4d4272dbd68cd",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-39-722Z.log": {
+      "sha256": "eb81e1ddcc962f9670ef252e530adadbbf60286e6c730ef3574251ac6da4c572",
+      "bytes": 642
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-43-088Z.log": {
+      "sha256": "3d0f0402c7f395393c194bff74369f0a7836d74b63c8b0cd18bda8a6af5401f3",
+      "bytes": 835
+    },
+    "harness/mcp-output/console-2026-11-20T21-39-46-879Z.log": {
+      "sha256": "94f61444b1c28f1d5b2f6127e18ed4047815be6c0635dbf40121415113de24e1",
+      "bytes": 383
+    },
+    "harness/mcp.json": {
+      "sha256": "c5786e740a1925ffa1f112b85bbb81f49da7780b0705b4dbed6d5326a9bf66c5",
+      "bytes": 370
+    },
+    "harness/record.json": {
+      "sha256": "0a8e07cfee758115340860c85106dda534779992c0a9b794cb67201646689357",
+      "bytes": 5570
+    },
+    "harness/stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "run.json": {
+      "sha256": "863eedba63978e1bfdec4b99fc6865ae77d0a86f4d0d8b11f69b76d985a41b65",
+      "bytes": 2500
+    },
+    "task/instructions.md": {
+      "sha256": "c3d7a53f25ebf06e2f55f3c4e97d20cde6f5e2bb5df56d6c5c16cafd7a6b1236",
+      "bytes": 60
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{"at":"2026-11-20T21:33:18.504Z","started":true,"allowed":["api.anthropic.com:443"]}
+{"at":"2026-11-20T21:33:37.520Z","method":"CONNECT","target":"api.anthropic.com:443","allowed":true}
+{"at":"2026-11-20T21:33:37.533Z","method":"CONNECT","target":"api.anthropic.com:443","allowed":true}
+{"at":"2026-11-20T21:33:38.600Z","method":"CONNECT","target":"api.anthropic.com:443","allowed":true}

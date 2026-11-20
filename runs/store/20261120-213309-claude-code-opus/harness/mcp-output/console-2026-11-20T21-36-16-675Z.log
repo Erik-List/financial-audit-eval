@@ -1,0 +1,2 @@
+[     364ms] [LOG] %cUsing this console may allow attackers to impersonate you and steal your information. Do not enter or paste code that you do not understand. font-size: large @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:1666
+[     392ms] [ERROR] Error connecting to socket.io: Invalid origin @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:589

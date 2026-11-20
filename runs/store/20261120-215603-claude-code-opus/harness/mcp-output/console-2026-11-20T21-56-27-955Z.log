@@ -1,0 +1,6 @@
+[   -9817ms] [WARNING] WebSocket connection to 'ws://erp:8080/socket.io/?EIO=4&transport=websocket&sid=D1UqZ7JiQap34IMPAAJX' failed: WebSocket is closed before the connection is established. @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:589
+[   -9930ms] [LOG] localStorage cleared @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:225
+[   -9930ms] [LOG] Cleared App Cache. @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:225
+[   -9930ms] [LOG] localStorage cleared @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:225
+[   -9903ms] [LOG] %cUsing this console may allow attackers to impersonate you and steal your information. Do not enter or paste code that you do not understand. font-size: large @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:1666
+[   -9818ms] [ERROR] Error connecting to socket.io: Invalid origin @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:589

@@ -1,0 +1,4 @@
+[     378ms] [LOG] %cUsing this console may allow attackers to impersonate you and steal your information. Do not enter or paste code that you do not understand. font-size: large @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:1666
+[     398ms] [WARNING] WebSocket connection to 'ws://erp:8080/socket.io/?EIO=4&transport=websocket&sid=p9SsHA_VZVaaqtyxAAKC' failed: WebSocket is closed before the connection is established. @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:589
+[     402ms] [ERROR] Error connecting to socket.io: Invalid origin @ http://erp:8080/assets/frappe/dist/js/desk.bundle.J4LCWJSY.js:589
+[     425ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://erp:8080/socket.io/?EIO=4&transport=polling&t=j037m8l4&sid=p9SsHA_VZVaaqtyxAAKC:1
