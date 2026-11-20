@@ -1,0 +1,4 @@
+{
+  "runs_in": "container",
+  "egress": ["api.anthropic.com:443"]
+}

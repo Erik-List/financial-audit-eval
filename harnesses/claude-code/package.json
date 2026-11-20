@@ -1,0 +1,10 @@
+{
+  "name": "fae-harness-claude-code",
+  "private": true,
+  "type": "module",
+  "description": "Pinned versions of Claude Code and the browser MCP server used by this harness.",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "2.1.327",
+    "@playwright/mcp": "0.0.86"
+  }
+}

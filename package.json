@@ -1,0 +1,20 @@
+{
+  "name": "financial-audit-eval",
+  "private": true,
+  "type": "module",
+  "description": "Runner, grader, run store and harness adapters. Node 22 runs the TypeScript files directly; there is no build step.",
+  "scripts": {
+    "run-task": "node --disable-warning=ExperimentalWarning runs/run.ts",
+    "grade": "node --disable-warning=ExperimentalWarning grader/grade.ts",
+    "check-interfaces": "node --disable-warning=ExperimentalWarning environment/computer/check-interfaces.ts",
+    "check-erp-api": "node --disable-warning=ExperimentalWarning environment/erp-forward/check.ts",
+    "probe-mcp": "node --disable-warning=ExperimentalWarning harnesses/claude-code/probe-mcp.ts",
+    "typecheck": "tsc --noEmit",
+    "index": "node --disable-warning=ExperimentalWarning runs/index.ts",
+    "verify": "node --disable-warning=ExperimentalWarning runs/verify.ts"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "typescript": "7.0.2"
+  }
+}

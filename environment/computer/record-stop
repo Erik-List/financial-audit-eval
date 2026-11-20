@@ -1,0 +1,14 @@
+#!/bin/sh
+# Stops the recording and writes /tmp/recording/screen.mp4.
+set -eu
+
+DIR=/tmp/recording
+pkill -INT -f "ffmpeg.*x11grab" 2>/dev/null || true
+i=0
+while pgrep -f "ffmpeg.*x11grab" > /dev/null 2>&1 && [ "$i" -lt 100 ]; do
+  sleep 0.2
+  i=$((i + 1))
+done
+
+ffmpeg -nostdin -loglevel error -y -i "$DIR/screen.mkv" -c copy -movflags +faststart "$DIR/screen.mp4"
+ls -l "$DIR/screen.mp4"

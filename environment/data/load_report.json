@@ -1,0 +1,140 @@
+{
+ "revenue": {
+  "ledger": 248969605.0,
+  "generator": 248969605,
+  "match": true
+ },
+ "trace": {
+  "documents_checked": 141,
+  "wrong_time_or_owner": [],
+  "fields_with_run_date": [],
+  "pass": true
+ },
+ "sample": [
+  {
+   "item": 1,
+   "invoice": "ACC-SINV-00779",
+   "status": "Paid",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00730",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 2,
+   "invoice": "ACC-SINV-00837",
+   "status": "Paid",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00787",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 3,
+   "invoice": "ACC-SINV-00763",
+   "status": "Paid",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00715",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 4,
+   "invoice": "ACC-SINV-00817",
+   "status": "Credit Note Issued",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00768",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 5,
+   "invoice": "ACC-SINV-00859",
+   "status": "Paid",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00808",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 6,
+   "invoice": "ACC-SINV-00721",
+   "status": "Paid",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00675",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 7,
+   "invoice": "ACC-SINV-00826",
+   "status": "Overdue",
+   "open": 148200.0,
+   "delivery_note": "MAT-DN-00777",
+   "delivery_status": "Completed",
+   "matches_key": true
+  },
+  {
+   "item": 8,
+   "invoice": "ACC-SINV-00807",
+   "status": "Paid",
+   "open": 0.0,
+   "delivery_note": "MAT-DN-00758",
+   "delivery_status": "Completed",
+   "matches_key": true
+  }
+ ],
+ "auditor": {
+  "user": "staff.auditor@audit-firm.test",
+  "opened": 24,
+  "attempts": [
+   {
+    "action": "change a customer",
+    "refused": true
+   },
+   {
+    "action": "create a customer",
+    "refused": true
+   },
+   {
+    "action": "cancel an invoice",
+    "refused": true
+   }
+  ],
+  "pass": true
+ },
+ "pass": true,
+ "refused_invoices": [
+  {
+   "check": "invoice without a delivery note",
+   "refused": true,
+   "message": "Sales Order is mandatory for Item LD-TB-13"
+  },
+  {
+   "check": "invoice price differs from order and delivery",
+   "refused": true,
+   "message": "Row #1: Rate must be same as Sales Order: SAL-ORD-00614 (773.0 / 763.0); Row #1: Rate must be same as Delivery Note: MAT-DN-00659 (773.0 / 763.0)"
+  },
+  {
+   "check": "invoice amount above the order amount",
+   "refused": true,
+   "message": "<p>Cannot overbill for the following Items:</p><ul><li>Item <strong>LD-TB-13</strong> in row(s) 1 billed more than <strong>$ 2,517,900.00</strong></li></ul><p>To allow over-billing, please set allowance in Accounts Settings.</p>"
+  }
+ ],
+ "settings": {
+  "so_required": "Yes",
+  "dn_required": "Yes",
+  "maintain_same_sales_rate": 1,
+  "maintain_same_rate_action": "Stop"
+ },
+ "timestamps": {
+  "steps": 808,
+  "tables": 755,
+  "run_window": [
+   "2026-11-19 15:39:44.000000",
+   "2026-11-19 15:41:39.000000"
+  ]
+ },
+ "seconds": 142,
+ "documents": 806
+}

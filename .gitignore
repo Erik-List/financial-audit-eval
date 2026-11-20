@@ -1,0 +1,16 @@
+.env
+environment/data/people.json
+environment/data/seed_clock.jsonl
+__pycache__/
+*.pyc
+node_modules/
+.next/
+.DS_Store
+# local tooling
+.claude/
+# log of the last data load
+environment/data/load_run.log
+# restores only with the unpublished people.json
+environment/apps/erp/backup/
+# a harness's own home folder is tied to the account that ran it; each run's omitted.json names it
+runs/store/*/harness/home/

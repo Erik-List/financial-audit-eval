@@ -1,0 +1,13 @@
+#!/bin/sh
+# Records the screen until record-stop is called. Writes Matroska first, because that file
+# stays readable when the container dies mid-run; record-stop turns it into an MP4.
+set -eu
+
+DIR=/tmp/recording
+mkdir -p "$DIR"
+rm -f "$DIR/screen.mkv" "$DIR/screen.mp4"
+
+exec ffmpeg -nostdin -loglevel warning \
+  -f x11grab -framerate "${RECORD_FPS:-5}" -video_size "${DISPLAY_WIDTH}x${DISPLAY_HEIGHT}" -i "${DISPLAY:-:0}" \
+  -c:v libx264 -preset veryfast -crf 30 -pix_fmt yuv420p -g 50 \
+  "$DIR/screen.mkv" > "$DIR/ffmpeg.log" 2>&1

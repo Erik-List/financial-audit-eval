@@ -1,0 +1,5 @@
+{
+  "runs_in": "container",
+  "secrets": ".env",
+  "egress": ["api.anthropic.com:443"]
+}
